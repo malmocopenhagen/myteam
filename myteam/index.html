@@ -1,0 +1,111 @@
+<!-- I started with the Bootstrap starter template  -->
+<!-- https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Boston Celtics</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar -->
+    <!-- I'm using the "navbar-light" color scheme, and a custom background color, defined in my styles.css -->
+    <!-- Because the navbar has a "container" inside, it has gutters (spacing) on the left and right -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="bos.png" class="d-inline-block align-middle" style="width:50px;height:50px;">
+          Boston Celtics
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+          <!-- This causes the links to move to the right -->
+          <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Full width Jumbotron -->
+    <!-- https://getbootstrap.com/docs/4.4/components/jumbotron/ -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Celtics Roster</h1 class="display-4">
+        <p class="lead">Guards and Forwards</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Guards</h2>
+        </div>
+      </div>
+      <!-- An example of Bootstrap's spacing utility classes -->
+      <!-- https://getbootstrap.com/docs/4.4/utilities/spacing/#how-it-works -->
+      <!-- The "mt-4" gives you more margin on top, responsively -->
+      <div class="row mt-4">
+        <div class="col-sm-4 text-center">
+          <h5>Kemba Walker</h5>
+          <img src="kemba.png" class="d-inline-block align-middle" style="width:266px;height:200px;">
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5>Jaylen Brown</h5>
+          <img src="jaylen.png" class="d-inline-block align-middle" style="width:266px;height:200px;">
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5>Marcus Smart</h5>
+          <img src="marcus.png" class="d-inline-block align-middle" style="width:266px;height:200px;">
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Forwards</h2>
+        </div>
+      </div>
+      <!-- An example of Bootstrap's spacing utility classes -->
+      <!-- https://getbootstrap.com/docs/4.4/utilities/spacing/#how-it-works -->
+      <!-- The "mt-4" gives you more margin on top, responsively -->
+      <div class="row mt-4">
+        <div class="col-sm-4 text-center">
+          <h5>Jayson Tatum</h5>
+          <img src="jayson.png" class="d-inline-block align-middle" style="width:266px;height:200px;">
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5>Gordon Hayward</h5>
+          <img src="gordon.png" class="d-inline-block align-middle" style="width:266px;height:200px;">
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5>Enes Kanter</h5>
+          <img src="enes.png" class="d-inline-block align-middle" style="width:266px;height:200px;">
+        </div>
+      </div>
+    </div>
+    <!-- Just a line, a "horizontal rule" with some space on the y-axis -->
+    <hr class="my-4">
